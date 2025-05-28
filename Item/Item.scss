@@ -1,0 +1,46 @@
+.item-card {
+  background-color: $primary;
+  color: $black;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+  }
+
+  .card-title {
+    color: $black;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+
+  .card-text {
+    color: $black;
+    font-size: 0.95rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .fw-bold {
+    font-weight: 600;
+  }
+
+  .card-body:last-child {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+  .btn-info {
+    @extend .btn;
+    background-color: $third;
+    border-color: $third;
+    color: $black;
+
+    &:hover {
+      background-color: darken($third, 10%);
+      border-color: darken($third, 10%);
+    }
+  }
+}
