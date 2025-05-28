@@ -1,0 +1,28 @@
+// Menu.scss
+
+.menu-navbar {
+  background-color: $black !important;
+  padding: 10px 20px;
+  border-bottom: 2px solid $third;
+
+  .menu-brand {
+    color: $primary;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    &:hover {
+      color: lighten($primary, 10%);
+    }
+  }
+
+  .menu-link {
+    color: $third !important;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+
+    &:hover {
+      color: lighten($third, 15%) !important;
+    }
+  }
+}
