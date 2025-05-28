@@ -1,0 +1,35 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// === Variables personalizadas ===
+$body-bg: #000;
+$primary: #B4F9DC;
+$secondary: #B4F9DC;
+$third: #D1D5FF;
+$black: #000;
+
+// === Estilos globales ===
+body {
+  background-color: $body-bg;
+}
+
+// === Espaciado personalizado ===
+.space {
+  margin-top: 30px;
+}
+
+// === Botones ===
+.btn {
+  background-color: $third;
+  color: $black;
+  border-color: $third;
+}
+
+// Específico para .btn-info (por si usas variant="info")
+.btn-info {
+  background-color: $third !important;
+  color: $black !important;
+  border-color: $third !important;
+  width: fit-content;
+  margin-right: 10px;
+}
