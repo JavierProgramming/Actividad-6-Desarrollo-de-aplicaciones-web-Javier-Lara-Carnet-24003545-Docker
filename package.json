@@ -1,0 +1,48 @@
+{
+  "name": "ejemploclase",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Aplicación React con Redux Toolkit, Bootstrap y pruebas integradas",
+  "scripts": {
+    "start": "react-scripts start",     // Inicia el servidor de desarrollo
+    "build": "react-scripts build",     // Compila para producción
+    "test": "react-scripts test",       // Ejecuta pruebas
+    "eject": "react-scripts eject"      // Expone la configuración oculta de CRA (irreversible)
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.7.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.5",
+    "react": "^19.1.0",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "sass": "^1.87.0"
+    // Puedes agregar herramientas como redux-logger o dotenv si lo necesitas
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
